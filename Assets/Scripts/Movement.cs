@@ -6,8 +6,8 @@ public class Movement : MonoBehaviour
 {
     [SerializeField] InputAction thrust;
     [SerializeField] InputAction rotation;
-    [SerializeField] float thrustStrength = 600f;
-    [SerializeField] float rotateStrength = 35f;
+    [SerializeField] float thrustStrength = 1000f;
+    [SerializeField] float rotateStrength = 68f;
     [SerializeField] AudioClip engineSound;
     [SerializeField] ParticleSystem mainEngineParticles;
     [SerializeField] ParticleSystem rightThrustParticles;
