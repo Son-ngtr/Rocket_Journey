@@ -4973,6 +4973,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4178811640113954646, guid: b6fd90244f9273744af3539b4210d0ed, type: 3}
+      propertyPath: rotateStrength
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4178811640113954646, guid: b6fd90244f9273744af3539b4210d0ed, type: 3}
+      propertyPath: thrustStrength
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 5170377181218502335, guid: b6fd90244f9273744af3539b4210d0ed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.05
