@@ -11,7 +11,7 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] ParticleSystem successParticle;
     [SerializeField] ParticleSystem crashParticle;
 
-    [SerializeField] float delayTime = 1.5f;
+    [SerializeField] float delayTime = 1.2f;
 
     AudioSource audioSource;
 
