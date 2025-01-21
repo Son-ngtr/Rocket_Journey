@@ -87,7 +87,8 @@ public class Movement : MonoBehaviour
 
     private void ProcessThrust()
     {
-        if (thrust.IsPressed())
+        float rotationInput = rotation.ReadValue<float>();
+        if (thrust.IsPressed() || rotationInput != 0 )
         {
             StartThrusting();
         }
